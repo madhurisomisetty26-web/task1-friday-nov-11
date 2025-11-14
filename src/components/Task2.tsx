@@ -2,7 +2,8 @@
 
 export default function Task2() {
 
-    {/*const model={name:"first",lastname:"last",middlename:"middle"};*/}
+    {/*const model={name:"Madhuri",lastname:"Somisetty",middlename:"madhu"};*/}
+     const model=["Madhuri","Somisetty","Madhu"];
 
     const cities=[{city1:"hyd",city2:"chennai",city3:"bnglr"},
                    {city4:"vizag",city5:"nlr",city6:"onglr"}]
@@ -13,13 +14,9 @@ export default function Task2() {
         model:{model.lastname}<br></br>
         model:{model.middlename}*/}
     <h3>Number of citites</h3>
-       {cities.map((cities)=>(
-        <div> {cities.city1} <br></br>
-               {cities.city2}<br></br>
-               {cities.city3}<br></br>
-               {cities.city4}<br></br>
-               {cities.city5}<br></br>
-               {cities.city6}
+       {cities.map((eachcity)=>(
+        <div> {eachcity.city1} <br></br>
+               
         <br></br>
         </div>
        )
